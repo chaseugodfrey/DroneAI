@@ -64,9 +64,6 @@ public class FlowField : MonoBehaviour
             flowFieldVectorList[i] = dir;
         }
 
-
-        return;
-
         #region Smoothing
         Vector3[] newField = new Vector3[flowFieldVectorList.Length];
 
