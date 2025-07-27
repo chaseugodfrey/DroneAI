@@ -287,7 +287,6 @@ public class TerrainManager : MonoBehaviour
                 for (int z = 0; z < depth; z++)
                     terrainData.data.Set(x, y, z, data.Get(x, y, z));
 
-        AssetDatabase.SaveAssets();
         Debug.Log("Terrain data saved to MapLayer.");
     }
 
